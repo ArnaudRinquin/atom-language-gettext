@@ -1,6 +1,6 @@
 {
   "name": "language-gettext",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Gettext support for Atom",
   "repository": {
     "type": "git",
@@ -13,6 +13,6 @@
   },
   "homepage": "https://atom.io/packages/language-gettext",
   "bugs": {
-    "url": "https://github.com/ArnaudRinquin/atom-language-text/issues"
+    "url": "https://github.com/ArnaudRinquin/atom-language-gettext/issues"
   }
 }
