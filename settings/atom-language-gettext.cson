@@ -1,0 +1,9 @@
+".source.po":
+  editor:
+    foldEndPattern: "^\\s*$"
+    completions: [
+      "msgid \""
+      "msgstr \""
+      "msgctxt \""
+      "msgid_plural \""
+    ]

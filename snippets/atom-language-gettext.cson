@@ -1,0 +1,10 @@
+".source.po":
+  "Message ID":
+    prefix: "id"
+    body: '''
+      msgid "${1:original text}"
+      
+    '''
+  "Message String":
+    prefix: "str"
+    body: "msgstr \"${1:translated text}\""
