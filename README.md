@@ -10,6 +10,8 @@ Adds a few snippets:
 * `msg` -> `msgid + msgstr`
 * `msgc` -> `msgctxt + msgid + msgstr`
 
+The last `tab` navigation position is conveniently placed on a new line so you can chain quickly.
+
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
 from the [Gettext TextMate bundle](https://github.com/textmate/gettext.tmbundle).
 

@@ -3,20 +3,31 @@
     prefix: "id"
     body: '''
       msgid "${1:original text}"
-
-    '''
+      $2'''
   "Message String":
     prefix: "str"
-    body: "msgstr \"${1:translated text}\""
+    body: '''
+      msgstr "${1:translated text}"
+      $2'''
 
   "Context":
     prefix: "ctx"
-    body: "msgctxt \"${1:context}\""
+    body: '''msgctxt "${1:context}"
+      $2'''
 
   'New simple Message':
     prefix: 'msg'
-    body: 'msgid "$1"\nmsgstr "$2"\n'
+    body: '''msgid "$1"
+    msgstr "$2"
+
+    $3
+    '''
 
   'New Message in a context':
     prefix: 'msgc'
-    body: 'msgctxt "$1"\nmsgid "$2"\nmsgstr "$3"\n'
+    body: '''msgctxt "$1"
+    msgid "$2"
+    msgstr "$3"
+
+    $4
+    '''
