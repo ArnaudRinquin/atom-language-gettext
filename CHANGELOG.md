@@ -1,3 +1,7 @@
+## 0.3.0 - Add snippet
+* `ctx` snippet
+* `msgc` snippet
+
 ## 0.2.0 - Add snippet
 * `msg` snippet
 

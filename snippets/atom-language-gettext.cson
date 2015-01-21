@@ -9,6 +9,14 @@
     prefix: "str"
     body: "msgstr \"${1:translated text}\""
 
+  "Context":
+    prefix: "ctx"
+    body: "msgctx \"${1:context}\""
+
   'New simple Message':
     prefix: 'msg'
     body: 'msgid "$1"\nmsgstr "$2"\n'
+
+  'New Message in a context':
+    prefix: 'msgc'
+    body: 'msgctx "$1"\nmsgid "$2"\nmsgstr "$3"\n'
