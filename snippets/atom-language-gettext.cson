@@ -1,26 +1,40 @@
 ".source.po":
-  "New header":
+  "Header":
     prefix: "hdr"
     body: '''
       "${1:header name}: ${2: header value}\\n"
       $3'''
-  "Message ID":
+
+  "Message id":
     prefix: "id"
     body: '''
       msgid "${1:original text}"
       $2'''
-  "Message String":
+
+  "Message id plural":
+    prefix: "idp"
+    body: '''
+      msgid_plural "${1:original text}"
+      $2'''
+
+  "Message string":
     prefix: "str"
     body: '''
       msgstr "${1:translated text}"
       $2'''
+
+  "Message string plural":
+    prefix: "strp"
+    body: '''
+      msgstr[${1:index}] "${2:translated text}"
+      $3'''
 
   "Context":
     prefix: "ctx"
     body: '''msgctxt "${1:context}"
       $2'''
 
-  'New simple Message':
+  'Simple Message':
     prefix: 'msg'
     body: '''msgid "$1"
     msgstr "$2"
@@ -28,11 +42,32 @@
     $3
     '''
 
-  'New Message in a context':
+  'Simple message in a context':
     prefix: 'msgc'
     body: '''msgctxt "$1"
     msgid "$2"
     msgstr "$3"
 
     $4
+    '''
+
+  'Plural message':
+    prefix: 'msgp'
+    body: '''msgid "${1:id}"
+    msgid_plural "${2:plural id}"
+    msgstr[0] "$3"
+    msgstr[1] "$4"
+
+    $5
+    '''
+
+  'Plural message in a context':
+    prefix: 'msgcp'
+    body: '''msgctxt "${1:context}"
+    msgid "${2:id}"
+    msgid_plural "${3:plural id}"
+    msgstr[0] "$4"
+    msgstr[1] "$5"
+
+    $6
     '''

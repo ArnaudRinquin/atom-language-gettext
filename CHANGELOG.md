@@ -1,3 +1,10 @@
+## 0.6.0 - Add plural snippet
+
+* `idp`
+* `strp`
+* `msgp`
+* `msgcp`
+
 ## 0.5.0 - Add snippet
 
 * `hdr` snippet
