@@ -6,9 +6,9 @@ Adds a few snippets:
 
 * `id` -> `msgid "$1"`
 * `str` -> `msgstr "$1"`
-* `ctx` -> `msgctx "$1"`
+* `ctx` -> `msgctxt "$1"`
 * `msg` -> `msgid + msgstr`
-* `msgc` -> `msgctx + msgid + msgstr`
+* `msgc` -> `msgctxt + msgid + msgstr`
 
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
 from the [Gettext TextMate bundle](https://github.com/textmate/gettext.tmbundle).

@@ -1,3 +1,5 @@
+## 0.3.1 - Fix `context` snippets
+
 ## 0.3.0 - Add snippet
 * `ctx` snippet
 * `msgc` snippet

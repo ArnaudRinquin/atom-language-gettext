@@ -11,7 +11,7 @@
 
   "Context":
     prefix: "ctx"
-    body: "msgctx \"${1:context}\""
+    body: "msgctxt \"${1:context}\""
 
   'New simple Message':
     prefix: 'msg'
@@ -19,4 +19,4 @@
 
   'New Message in a context':
     prefix: 'msgc'
-    body: 'msgctx "$1"\nmsgid "$2"\nmsgstr "$3"\n'
+    body: 'msgctxt "$1"\nmsgid "$2"\nmsgstr "$3"\n'
