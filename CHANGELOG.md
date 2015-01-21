@@ -1,3 +1,5 @@
+## 0.6.1 - :bug: comment start
+
 ## 0.6.0 - Add plural snippet
 
 * `idp`

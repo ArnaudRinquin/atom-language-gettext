@@ -1,5 +1,6 @@
 ".source.po":
   editor:
+    commentStart: '# '
     foldEndPattern: "^\\s*$"
     completions: [
       "msgid \""
