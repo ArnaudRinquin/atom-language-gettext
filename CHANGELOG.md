@@ -1,3 +1,7 @@
+## 0.5.0 - Add snippet
+
+* `hdr` snippet
+
 ## 0.4.0 - Improve all snippets
 
 * Cleaner snippet syntaxe

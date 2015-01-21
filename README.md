@@ -4,6 +4,7 @@ Adds syntax highlighting to `msgid`, `msgstr`, etc in Atom.
 
 Adds a few snippets:
 
+* `hdr` -> `"$1: $2\n"`
 * `id` -> `msgid "$1"`
 * `str` -> `msgstr "$1"`
 * `ctx` -> `msgctxt "$1"`
